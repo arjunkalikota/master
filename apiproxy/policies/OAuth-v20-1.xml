@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<OAuthV2 async="false" continueOnError="false" enabled="true" name="OAuth-v20-1">
+    <DisplayName>OAuth v2.0-1</DisplayName>
+    <Operation>GenerateAuthorizationCode</Operation>
+    <!--
+    ExpiresIn, in milliseconds. The ref is optional. The explicitly specified
+    value is the default, when the variable reference cannot be resolved.
+        60000 = 1 minute
+       120000 = 2 minutes
+    -->
+    <ExpiresIn>60000</ExpiresIn>
+    <GenerateResponse enabled="true"/>
+</OAuthV2>

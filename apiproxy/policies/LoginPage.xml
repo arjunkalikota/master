@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RaiseFault async="false" continueOnError="false" enabled="true" name="LoginPage">
+    <DisplayName>LoginPage</DisplayName>
+    <Properties/>
+    <FaultResponse>
+        <Set>
+            <Headers>
+                <Header name="Location">https://login.apigee.com/oauth/authorize?client_id=a3rdol7hsqW6JywgPy5jw1A1IxiRzLaj&amp;response_type=code&amp;scope=openid profile email&amp;redirect_uri=https://apigee.com/oauthCallback&amp;state=a3rdol7hsqW6JywgPy5jw1A1IxiRzLaj</Header>
+                <!--<Header name="Location">https://fedauth.pg.com/as/token.oauth2?client_id={private.pingfed_client_id}&amp;response_type=code&amp;scope=openid profile email&amp;redirect_uri=https://api-development.pg.com/v1/oauth2/userAuthorize&amp;pfidpadapterid=OAuth&amp;state={request.queryparam.client_id}</Header>-->
+            </Headers>
+            <Payload contentType="text/plain">https://login.apigee.com/oauth/authorize?client_id=a3rdol7hsqW6JywgPy5jw1A1IxiRzLaj&amp;response_type=code&amp;scope=openid profile email&amp;redirect_uri=https://apigee.com/oauthCallback&amp;state=a3rdol7hsqW6JywgPy5jw1A1IxiRzLaj</Payload>
+            <StatusCode>302</StatusCode>
+            <ReasonPhrase>Found</ReasonPhrase>
+        </Set>
+    </FaultResponse>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+</RaiseFault>

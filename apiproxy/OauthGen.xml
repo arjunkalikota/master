@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="OauthGen">
+    <Basepaths>/v1/oauthgen</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1548477023500</CreatedAt>
+    <CreatedBy>arjunkalikota@hotmail.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>OauthGen</DisplayName>
+    <LastModifiedAt>1574257855132</LastModifiedAt>
+    <LastModifiedBy>arjunkalikota@hotmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:8a229a5ed0f14a129b9e4c6f1e73c987f169f952e295b7444fecd2605a3fc1aef18c362f4a3b19043a82fae6b5b87161cd4aa70d37f6f5cbfc1b95e1d07f6587</ManifestVersion>
+    <Policies>
+        <Policy>LoginPage</Policy>
+        <Policy>OAuth-v20-1</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints/>
+</APIProxy>

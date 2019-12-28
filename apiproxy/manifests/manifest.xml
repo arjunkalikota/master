@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="LoginPage" version="SHA-512:898afa43d681406f6e1f951e41282529a475333ea5e1cd3cf89891412bd8d5128efc577e235b3a5c406dd11782785b722646889e9e59402739025cb52d6517ac"/>
+        <VersionInfo resourceName="OAuth-v20-1" version="SHA-512:de206840f9c3a6f2179ad3f48943699d089b5ca8454d4d9cff7dc2d42fe105c3abb8eb6ce1ffdf8342c78f43c5e13abe5031f91548f54a2523a766b921c11481"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:4cc725310abbb8c26c48d411b9be5ad4c16b4321dd86d111b4d4c9bd72c763291d42653de18b70bb9f93d758930e4442e5404af76aa4685c4e9fb0938241ddc9"/>
+    </ProxyEndpoints>
+    <Resources/>
+    <SharedFlows/>
+    <TargetEndpoints/>
+</Manifest>
